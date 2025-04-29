@@ -1,6 +1,6 @@
 # psg-example
 
-En este proyecto se ecnuentran los **retos** de Python Study Group for Begginers.
+En este proyecto se ecnuentran los **retos** de Python Study Group for Beginners.
 
 ## Contenido del directorio actual:
 
