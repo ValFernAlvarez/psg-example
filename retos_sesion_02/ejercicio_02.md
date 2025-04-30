@@ -27,4 +27,4 @@ Ahora que lo veo escrito, sí parece una combinación algo aleatoria. Dejando de
 >I am just a speck of dust inside a giant's eye - (Kimya Dawson, "I like Giants")
 
 ## Mi fotito
-![Mi foto](retos_sesion_02/psg_foto.jpeg)
+![Mi foto](psg_foto.jpeg)
