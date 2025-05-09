@@ -1,0 +1,5 @@
+print("NANA (persona): ¡Dios mío, un gatito! (en una voz tan aguda que es imposible de entender).")
+print("GATO CALLEJERO: Señora, tengo nombre. ¿Acaso cuando la veo a usted digo: '¡Ah, una imillita!'?")
+print("NANA (persona): (gritando) ¡ME HABLÓ UN GATO! ¿CÓMO ES POSIBLE? ¿CÓMO TE LLAMAS?")
+print("GATO CALLEJERO: Hssssss... (le rasguña y se va corriendo).")
+print("NANA (persona): Bueno, oficialmente estoy loca y con una herida infectada. Tsk, tsk... solo en La Paz.")
