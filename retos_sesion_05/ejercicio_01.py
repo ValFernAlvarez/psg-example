@@ -1,5 +1,5 @@
 '''
-Escribe un programa en Python que calcule el total a
+1. Escribe un programa en Python que calcule el total a
 pagar si se compran 12 productos iguales donde cada
 uno cuesta 3.75 USD.
 '''
