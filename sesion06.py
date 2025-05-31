@@ -1,3 +1,4 @@
+'''
 print("TIPOS DE DATOS BOOLEANOS")
 print(True)
 print(False)
@@ -133,6 +134,7 @@ divisible_5=numero%5==0
 no_divisible_2=numero%2!=0
 verificacion=divisible_3 and divisible_5 and no_divisible_2
 print(verificacion)
+'''
 #---
 print("CORTOCIRCUITOS")
 print ("CON AND")
