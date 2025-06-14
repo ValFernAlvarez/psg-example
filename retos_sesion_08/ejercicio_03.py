@@ -1,5 +1,5 @@
 '''
-Ingresa una pregunta por teclado y almacena el valor en una tupla
+3. Ingresa una pregunta por teclado y almacena el valor en una tupla
     Concatena las tupla
     ('¿', ) + pregunta + ('?', )
     Imprime el resultado concatenado
