@@ -12,4 +12,4 @@ En este proyecto se encuentran los **retos** de Python Study Group for Beginners
 4. retos_sesion_02
     - ejercicio_01.txt
     - ejercicio_02.txt
-5. README.md
+5. readme.md
