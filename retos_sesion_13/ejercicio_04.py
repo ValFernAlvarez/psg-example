@@ -2,7 +2,6 @@
 4. Crea un ciclo infinito que reciba una frase por teclado y verifique si la frase es palíndromo.
     La ejecución termina si la frase ingresada contiene la palabra salir
 '''
-frase=""
 while True:
     frase=input("Ingrese frase: ").lower()
     if frase==(frase[::-1]):
