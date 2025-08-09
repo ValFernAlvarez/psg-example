@@ -3,4 +3,4 @@
 '''
 valor=0.0000000001
 var_boolean=bool(valor)
-print(var_boolean)
+print("Valor booleano de 0.0000000001: ",var_boolean)
