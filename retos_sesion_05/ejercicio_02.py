@@ -14,6 +14,6 @@ clss_a=(frnht_a-32)/(1.8) #Celsius A
 clss_b=(frnht_b-32)/(1.8) #Celsius B
 clss_c=(frnht_c-32)/(1.8) #Celsius C
 #---
-print(f"Fahrenheit: {frnht_a} ºF  --->  Celsius: {clss_a} °C")
-print(f"Fahrenheit: {frnht_b} ºF  --->  Celsius: {clss_b} °C")
-print(f"Fahrenheit: {frnht_c} ºF  --->  Celsius: {clss_c} °C")
+print("Fahrenheit: ", frnht_a, "ºF  --->  Celsius: ", clss_a, "°C")
+print("Fahrenheit: ", frnht_b, "ºF  --->  Celsius: ", clss_b, "°C")
+print("Fahrenheit: ", frnht_c, "ºF  --->  Celsius: ", clss_c, "°C")
