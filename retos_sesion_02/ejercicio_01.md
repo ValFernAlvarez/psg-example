@@ -2,9 +2,9 @@
 
 ## Ingredientes
  
- -Dos rebanadas de pan molde.
- -Una cucharada de mantequilla
- -Una cucharada de mermelada (de cualquier sabor)
+ - Dos rebanadas de pan molde.
+ - Una cucharada de mantequilla.
+ - Una cucharada de mermelada (de cualquier sabor).
 
  ## Pasos
 
