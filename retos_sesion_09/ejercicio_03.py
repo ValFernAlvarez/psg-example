@@ -7,7 +7,7 @@
 '''
 lst_nombres=["Pim", "Charlie", "Glep", "Alan", "Mr. Frog", "Shrimp", "Boss", "Desmond", "Smormu", "Dj Spit"]
 #---
-sub_lista=lst_nombres[5:9:2]
+sub_lista=lst_nombres[5:10:2]
 #---
 verificacion_jose="José" in lst_nombres
 #---
