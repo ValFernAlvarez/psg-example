@@ -4,6 +4,6 @@
 '''
 cadena=input("Ingrese cadena: ").lower()
 quitar_espacios=cadena.replace(" ","")
-cadena_invertida=cadena[::-1]
-verificacion=cadena==cadena_invertida
+cadena_invertida=quitar_espacios[::-1]
+verificacion=(quitar_espacios==cadena_invertida)
 print(f"¿Es palindrome?: {verificacion}")
