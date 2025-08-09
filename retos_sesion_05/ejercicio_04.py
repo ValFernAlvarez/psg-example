@@ -6,4 +6,4 @@
 lado=15
 volumen=lado**3
 #---
-print(f"Volumen del cubo: {volumen} m.")
+print("Volumen del cubo: ", volumen,"m.")
