@@ -6,22 +6,9 @@
     excepción genérica que advierta que el monto excede el límite permitido por transacción.
 '''
 
-class IntentosExcedidos(Exception):
-    pass
-
 class FondosInsuficientes(Exception):
     pass
 #---
-
-pin='1234'
-for intento in range (3):
-    if intento>0:
-        print(f"\nINTENTO {intento+1}: ")
-    pin_usr=input("Ingrese pin: ").strip()
-    if pin_usr==pin:
-        break
-else:
-    raise IntentosExcedidos("Excediste la cantidad de intentos. Tarjeta bloqueada.")
 
 #---
 
