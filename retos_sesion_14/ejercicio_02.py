@@ -9,8 +9,10 @@ def calcular_operacion_basica (numero_1,numero_2,operacion):
         return numero_1 - numero_2
     elif operacion == "multiplicacion":
         return numero_1 * numero_2
-    elif operacion == "division":
-        return numero_1 / numero_2
+    elif numero_2==0 and operacion=="division":
+        return "División indeterminada."
+    elif operacion == "division" and numero_2>0:
+        return round(numero_1 / numero_2,2)
     else:
         return "Operación inválida."
 #---
@@ -19,4 +21,4 @@ numero_2_usr=float(input("Ingrese segundo número: "))
 operacion_usr=input("Ingrese operación: ").strip().lower()
 #---
 resultado=calcular_operacion_basica(numero_1_usr,numero_2_usr,operacion_usr)
-print(f"Resultado: {round(resultado,2)}")
+print(f"Resultado: {resultado}")
