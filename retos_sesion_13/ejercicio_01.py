@@ -7,8 +7,7 @@ actual=2
 siguiente=1
 #---
 for termino in range (20):
-    print(actual,end=", " if termino<20-1 else " ")
+    print(actual)
     temporal=actual
     actual=siguiente
     siguiente+=temporal
-print("\n")
