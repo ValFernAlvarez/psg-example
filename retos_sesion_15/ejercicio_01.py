@@ -33,10 +33,10 @@ while True:
         numero_convertido_2=float(numero_2_usr)
         resultado=calcular_operacion_basica(numero_convertido_1,numero_convertido_2,operacion_usr)
     except ValueError as e:
-        print("\n🚫  Error de valor:", e, type(e))
+        print("\n🚫  Error de valor:", e)
     except ZeroDivisionError as e:
-        print("\n0️⃣  Error:", e, type(e))
+        print("\n0️⃣  Error:", e)
     except Exception as e:
-        print("\n💀  Error:", e, type(e))
+        print("\n💀  Error:", e)
     else:
         print(f"\nResultado: {round(resultado,2)}")
