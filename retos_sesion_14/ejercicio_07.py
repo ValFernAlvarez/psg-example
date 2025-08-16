@@ -28,6 +28,11 @@ def verificar_casilla (tablero,i,j,simbolo,jugada):
             jugada=input("Ingrese la coordenadas 'i' y 'j' separados por espacios: ").strip().split(" ")
             i=int(jugada[0])-1
             j=int(jugada[1])-1
+        elif i<0 or j<0:
+            print("Ingrese 'i' y 'j' entre 1 y 3. ")
+            jugada=input("Ingrese la coordenadas 'i' y 'j' separados por espacios: ").strip().split(" ")
+            i=int(jugada[0])-1
+            j=int(jugada[1])-1
         else:
             tablero [i][j] = simbolo
             break
