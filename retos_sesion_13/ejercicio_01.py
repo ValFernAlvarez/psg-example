@@ -11,6 +11,4 @@ for termino in range (20):
     temporal=actual
     actual=siguiente
     siguiente+=temporal
-
-    
-
+print("\n")
