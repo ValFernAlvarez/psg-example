@@ -8,10 +8,14 @@
 -Verifica si el el numero de teléfono es válido
 -Verifica si el nombre válido usando truthiness
 '''
-nombre=input("Ingrese nombre: ")
-num_telefono=input("Ingrese el numero de teléfono: +")
+nombre=input("Ingrese nombre: ").strip().replace(" ","")
+num_telefono=input("Ingrese el numero de teléfono: ").strip()
+
 #---
-if nombre and (num_telefono).isdigit() and len(num_telefono)==11:
+verificacion_nombre=nombre.isalpha()
+verificacion_telefono=(num_telefono[0]=="+") and (num_telefono [1:].isdigit()) and len(num_telefono[1:])==11
+#---
+if verificacion_nombre and verificacion_telefono:
     print("-------------\nContacto Guardado.")
 else:
     print("-------------\nDatos Incorrectos.")
