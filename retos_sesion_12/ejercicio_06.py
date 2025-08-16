@@ -8,19 +8,28 @@ verifica si la operación solicitada es válida y muestra el resultado
 '''
 #---
 operacion_usr=input("\nFORMATO: numero1, número2, operación\nIngrese operación básica: ").replace(" ","").split(",")
+verificacion=(operacion_usr[0].isdigit()==0) or (operacion_usr[1].isdigit()==0)
 #---
-numero1=float(operacion_usr[0])
-numero2=float(operacion_usr[1])
-#---
-operaciones_basicas={
-   "+":numero1+numero2,
-   "-":numero1-numero2,
-   "*":numero1*numero2,
-    "/":numero1/numero2}
-#---
-if operacion_usr[2] in operaciones_basicas:
-    resultado=operaciones_basicas[operacion_usr[2]]
-    print(f"-------------\nResultado: {round(resultado,2)}")
+if verificacion:
+    print("Por favor ingrese en el formato indicado.")
 else:
-    print("No es una operación válida.")
+    #---
+    numero1=float(operacion_usr[0])
+    numero2=float(operacion_usr[1])
+    #---
+    if numero2==0 and operacion_usr[2]=="/":
+        print("División indeterminada.")
+    else:
+    #---
+        operaciones_basicas={
+        "+":numero1+numero2,
+        "-":numero1-numero2,
+        "*":numero1*numero2,
+        "/":numero1/numero2}
+        #---
+        if operacion_usr[2] in operaciones_basicas:
+            resultado=operaciones_basicas[operacion_usr[2]]
+            print(f"-------------\nResultado: {round(resultado,2)}")
+        else:
+            print("No es una operación válida.")
 
