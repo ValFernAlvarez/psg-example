@@ -10,4 +10,10 @@ jess={'Ferrari', 'Lamborghini', 'Tesla', 'Ford', 'Chevrolet'}
 #---
 autos_en_comun=jhon & jess
 #---
-print(f"\nAutos en común: {autos_en_comun}\nTotal: {len(autos_en_comun)}")
+print("\n¿Existen autos en común?", "Sí" if autos_en_comun else "No")
+#---
+if autos_en_comun:
+    print("\nAutos en común: ",autos_en_comun)
+    print("Total: ", len(autos_en_comun))
+else:
+    print("\nAutos en común: Ninguno")
