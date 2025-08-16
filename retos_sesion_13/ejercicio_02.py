@@ -3,8 +3,10 @@
 '''
 contador=0
 numero=0
+print("\n")
 while contador<20:
     if numero%2==0 and numero%5==0:
         contador+=1
         print(numero,end=", " if contador<20 else "")
     numero+=1
+print("\n")
