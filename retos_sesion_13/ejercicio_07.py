@@ -10,4 +10,4 @@ for numero in range (1,101):
         numero="Fizz"
     elif numero%7==0:
         numero="Buzz"
-    print(numero,end=" ")
+    print(numero)
